@@ -5,7 +5,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <com.haibuzou.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrDrawableEnd="@mipmap/pulltorefresh_loading_1"
+        ptr:ptrDrawableStart="@mipmap/ic_pulltorefresh_arrow"
+        ptr:ptrMode="both"
+        ptr:ptrOverScroll="false"
+        ptr:ptrAnimationStyle="flip"
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
