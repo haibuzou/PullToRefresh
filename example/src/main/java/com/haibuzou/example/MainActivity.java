@@ -24,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
         final PullToRefreshListView pullToRefreshListView = (PullToRefreshListView)findViewById(R.id.pull_to_refresh);
         final List<String> data = new ArrayList<>();
         final Random random = new Random();
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 30; i++){
             data.add(random.nextInt(10)+"");
         }
         final ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,data);
