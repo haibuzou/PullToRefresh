@@ -1,8 +1,8 @@
 # PullToReFresh
-Change from Android-PullToReFresh 
+Change from Android-PullToReFresh You can still use this like Android-PullToReFresh
 Use OnLastItemVisibleListener to replace onPullUpToRefresh，To achieve auto load more function
 
-更改自 Android-PullToReFresh 
+更改自 Android-PullToReFresh 支持原有的所有属性
 原有基础上使用OnLastItemVisibleListener 替代 onPullUpToRefresh 来实现上拉自动加载功能
 
 
