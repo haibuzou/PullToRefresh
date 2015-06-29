@@ -38,3 +38,6 @@ Use OnLastItemVisibleListener to replace onPullUpToRefresh，To achieve auto loa
                 },2000);
             }
         });
+
+####效果图
+![](https://github.com/haibuzou/PullToRefresh/raw/master/art/ScreenGif.gif)
