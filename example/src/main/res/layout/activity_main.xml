@@ -12,6 +12,7 @@
         ptr:ptrMode="both"
         ptr:ptrOverScroll="false"
         ptr:ptrAnimationStyle="flip"
+        ptr:ptrShowIndicator="false"
         android:id="@+id/pull_to_refresh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

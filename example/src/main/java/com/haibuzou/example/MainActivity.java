@@ -29,6 +29,8 @@ public class MainActivity extends ActionBarActivity {
         }
         final ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,data);
         pullToRefreshListView.setAdapter(adapter);
+        //footer默认不显示 需要上层判断是否显示
+        pullToRefreshListView.showFooter();
 
         pullToRefreshListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
             @Override
