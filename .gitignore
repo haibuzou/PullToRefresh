@@ -1,51 +1,33 @@
-#Android generated
-bin
-gen
-lint.xml
-lint
+#built application files
+*.apk
+*.ap_
 
-#Eclipse
-.project
-.classpath
-.settings
-.checkstyle
+# files for the dex VM
+*.dex
 
-#IntelliJ IDEA
-.idea
-*.iml
-*.ipr
-*.iws
-classes
-gen-external-apklibs
+# Java class files
+*.class
 
-#gradle
-.gradle
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
 local.properties
-gradlew
-gradlew.bat
-gradle/
-build/
 
-#vi
-*.swp
-
-#other editors
-*.bak
-
-#Maven
-target
-release.properties
-pom.xml.*
-
-#Ant
-build.xml
-ant.properties
-proguard.cfg
-proguard-project.txt
-
-#Other
-.DS_Store
+# Windows thumbnail db
 Thumbs.db
-tmp
-*.tgz
-*.lck
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
