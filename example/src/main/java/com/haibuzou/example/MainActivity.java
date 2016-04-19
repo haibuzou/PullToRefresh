@@ -1,17 +1,17 @@
 package com.haibuzou.example;
 
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.haibuzou.library.PullToRefreshBase;
+import com.haibuzou.library.PullToRefreshListView;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import com.haibuzou.library.PullToRefreshListView;
-import com.haibuzou.library.PullToRefreshBase;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
         }
         final ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,data);
         pullToRefreshListView.setAdapter(adapter);
-        //footerÄ¬ÈÏ²»ÏÔÊ¾ ĞèÒªÉÏ²ãÅĞ¶ÏÊÇ·ñÏÔÊ¾
+        //footeré»˜è®¤ä¸æ˜¾ç¤º éœ€è¦ä¸Šå±‚åˆ¤æ–­æ˜¯å¦æ˜¾ç¤º
         pullToRefreshListView.showFooter();
 
         pullToRefreshListView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
